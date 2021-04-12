@@ -22,7 +22,6 @@ import pandas as pd
 ##  Definicion Funcion
 ##############################################################################
 def findPlaces(coor,query,rad):
-    # contraseña del tufillo
     api_key = ''
     url= "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
     Busqueda=[]
